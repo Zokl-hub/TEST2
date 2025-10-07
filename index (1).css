@@ -1,0 +1,86 @@
+body{
+font-family: "Montserrat";
+background-color:  #C8CCCF;
+}
+.up{
+
+display: flex;
+flex-direction: column;
+margin-left: 495px;
+}
+#h01{
+z-index: 1;
+width: 756px;
+height: 104px;
+font-size: 88px;
+}
+#p1{
+z-index: 1;
+width: 659px;
+height: 108px;
+font-size: 24px;
+}
+button{
+z-index: 1;
+background-color: #363830;
+color: #FFFFFF;
+font-size: 24px;
+width: 182px;
+height: 66px;
+border-radius: 36px;
+padding-top: 20px;
+padding-right: 48px;
+padding-bottom: 20px;
+padding-left: 48px;
+gap: 10px;
+text-align: center;
+border: none;
+}
+#h02{
+border-bottom: solid; width: 50px; padding-bottom: 20px;
+}
+#p2{
+width: 204px;
+height: 120px;
+font-size: 16px;
+}
+.main{
+z-index: 1;
+display: flex;
+flex-direction: row;
+position: absolute;
+width: 948px;
+height: 202px;
+border-radius: 144px;
+padding-top: 40px;
+padding-right: 88px;
+padding-bottom: 40px;
+padding-left: 88px;
+gap: 150px;
+top: 691px;
+left: 628px;
+background: linear-gradient(95.95deg, rgba(255, 255, 255, 0.3) 6.59%, rgba(255, 255, 255, 0.18) 96.07%);
+backdrop-filter: blur(24px)
+
+}
+.index{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+#img1{
+position: absolute;
+width: 462px;
+height: 508px;
+top: 518px;
+left: 244px;
+}
+
+#img2{
+position: absolute;
+width: 537.3952026367188px;
+height: 512px;
+left: 1060.6px;
+top: 10px;
+}
